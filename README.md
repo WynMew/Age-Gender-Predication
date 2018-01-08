@@ -91,7 +91,7 @@ AgeEvaV2.py
 
 AgeGEvaResNet34_256.py (Age and Gender multi-task training model)
 
-## OESM (online example selection methon)
+## OESM (online example selection method)
 TrainAgePreResNet34Det256OESM.py
 
 ```python
