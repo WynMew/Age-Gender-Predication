@@ -1,6 +1,8 @@
 # Age-Gender-Predication
 Predicate age and gender from a single face image
+
 Pytorch implementation of CNN training for age and gender predication from a single face image.
+
 Training Data: [the IMDB-WIKI dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 ## Dependencies
