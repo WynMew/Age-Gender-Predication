@@ -1,17 +1,17 @@
 # Age-Gender-Predication
 Predicate age and gender from a single face image
 
-Pytorch implementation of CNN training for age and gender predication from a single face image.
+PyTorch implementation of CNN training for age and gender predication from a single face image.
 
 Training Data: [the IMDB-WIKI dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 ## Dependencies
 - Python 3.6+ (Anaconda)
-- Pytorch-0.2.0 +
+- PyTorch-0.2.0 +
 - scipy, numpy, sklearn etc.
 - OpenCV3 (Python)
 
-Tested on Ubuntu 14.04 LTS, Python 3.6 (Anaconda), Pytorch-0.3.0, CUDA 8.0, cuDNN 5.0
+Tested on Ubuntu 14.04 LTS, Python 3.6 (Anaconda), PyTorch-0.3.0, CUDA 8.0, cuDNN 5.0
 
 ## Usage
 ### Data Preprocessing
