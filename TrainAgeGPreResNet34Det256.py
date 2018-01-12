@@ -90,7 +90,6 @@ def test(model,loss_fn,dataloader):
         lossAge = loss_fn(agePre, agesL.cuda())
         lossGen = lossMSE(genderPre, genderF.cuda())
         loss = lossAge + lossGen
-        loss.backward()
         test_loss += loss.data.cpu().numpy()[0]
     test_loss /= len(dataloader)
     print('Test set: Average loss: {:.4f}'.format(test_loss))
